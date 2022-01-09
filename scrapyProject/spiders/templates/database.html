@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our final project</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='database_style.css') }}"
+    />
+  </head>
+  <body>
+    <nav class="regular">
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('member') }}">Members</a></li>
+        <li><a href="{{ url_for('abstract') }}">Abstract</a></li>
+        <li><a id="btn" href="{{ url_for('database') }}">Database</a></li>
+        <li><a href="{{ url_for('conclusion') }}">Conclusion</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <font face="gemerald">
+          <h1>Table1: Main</h1>
+          <h2>
+            id(PK)<br />
+            question<br />
+            view<br />
+            answer<br />
+            vote<br />
+          </h2>
+          <br />
+          <h1>Table2: Language</h1>
+          <h2>
+            id(PK)<br />
+            l1~l8
+          </h2>
+          <br />
+          <h1>Table3: Statistic</h1>
+          <h2>
+            Name(PK)<br />
+            Amount
+          </h2>
+
+          <br />
+        </font>
+      </div>
+
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

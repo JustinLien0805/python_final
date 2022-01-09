@@ -1,0 +1,34 @@
+body {
+  background: black;
+  font-family: "Vogue", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tbody tr th{
+  background-color:rgb(32, 35, 43);
+  color: lavender;
+}
+thead tr th {
+  text-align: left;
+  color: lavender;
+  background-color: rgb(21, 23, 29);
+}
+tr:nth-child(even) {
+  background-color: #242424;
+}
+tr:nth-child(odd) {
+  background: #4c4c4d;
+}
+tr:hover{
+  background-color: #727272;
+}
+td {
+  color: white;
+}
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 67px;
+}

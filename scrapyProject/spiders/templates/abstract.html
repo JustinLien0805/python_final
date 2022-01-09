@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our final project</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='abstract_style.css') }}"
+    />
+    <link href="http://fonts.cdnfonts.com/css/gemerald" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="regular">
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('member') }}">Members</a></li>
+        <li><a id="btn" href="{{ url_for('abstract') }}">Abstract</a></li>
+        <li><a href="{{ url_for('database') }}">Database</a></li>
+        <li><a href="{{ url_for('conclusion') }}">Conclusion</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <font face="gemerald">
+          <h1>What topic did we choose?</h1>
+          <h2>
+            Stack Overflow is a question and answer site for professional and
+            enthusiast programmers. It is a privately held website created in
+            2008. It features questions and answers on a wide range of topics in
+            computer programming.
+          </h2>
+
+          <br />
+
+          <h1>What we tried to do in this project?</h1>
+          <h2>
+            As for our project, we tried to collect and extract contents from
+            Stack Overflow’s website, so that we could assemble information such
+            as topic names, number of votes & answers, and tags that specify
+            what the question is about. After successfully crawling the data, we
+            then create several databases to store them, and also create files
+            that demonstrate the result.
+          </h2>
+        </font>
+      </div>
+
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our final project</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='conclusion_style.css') }}"
+    />
+  </head>
+  <body>
+    <nav class="regular">
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('member') }}">Members</a></li>
+        <li><a href="{{ url_for('abstract') }}">Abstract</a></li>
+        <li><a href="{{ url_for('database') }}">Database</a></li>
+        <li><a id="btn" href="{{ url_for('conclusion') }}">Conclusion</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <font face="gemerald">
+          <h1>A Brief Recap</h1>
+          <h2>
+            <br />We divided our work into two parts which are data scraping and
+            front-end design, so that we could learn how exactly the database
+            works and how to design the website to present what we've got to the
+            viewers. <br />
+            <br />
+            There are also some parts that we could have improved in the future.
+            For instance, we could make more functions, such as adding
+            information from the website’s Job & Companies section into our
+            database.
+          </h2>
+        </font>
+      </div>
+
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
